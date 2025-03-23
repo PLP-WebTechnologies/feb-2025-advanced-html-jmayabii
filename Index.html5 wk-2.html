@@ -1,0 +1,110 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head></head>
+    <body>
+        <h2>My Ordered List.</h2>
+        <ol type="i">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+            <li>Item Four</li>
+            <li>Item Five</li>
+        </ol>
+        <h2>External Image</h2>
+        <img src="c:\Users\joshm\Downloads\html5.image.jpg" alt="Breakfast" width="200">
+
+        <h2>Contact List</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Adress</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <th>Michael Smith</th>
+                <th>Nairobi,Kenya</th>
+                <th>0725801467</th>
+                <th>msmith@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Penelope Cruz</th>
+                <th>Mombasa</th>
+                <th>0736975324</th>
+                <th>cruz123@gmail.com</th>
+            </tr>
+            <th>Israel Young</th>
+            <th>Nakuru</th>
+            <th>0780956314</th>
+            <th>israelty@gmail.com</th>
+            <tr>
+                <th>Tracy Owino</th>
+                <th>Kakamega</th>
+                <th>0712807569</th>
+                <th>Owinotracy@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Ella Lohan</th>
+                <th>Kisumu</th>
+                <th>0735698745</th>
+                <th>lohanella@gmail.com</th>
+            </tr>
+        </table>
+
+        <h2>Registration Form</h2>
+        <form>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required><br></br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br></br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="pasword" name="password" placeholder="Enter a Strong password" required minlength="6"><br></br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required<br></br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label>
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">select your country</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Uganda">Uganda</option>
+                <option value="other">other</option>
+            </select>
+            <br></br>
+
+            <label>Interests:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+
+            <input type="checkbox" id="travel" name="interests" value="travel">
+            <label for="travel">Travel</label>
+            <br><br>
+
+            <button type="submit">Register</button>
+
+         </form>
+
+    </body>
+</html>
